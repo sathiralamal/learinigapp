@@ -12,7 +12,7 @@ import DefaultFooter from './components/Layoute/Footer';
 import Register from './components/Registation/Register';
 import Home from './components/Home/Home';
 import LectureDashbord from './components/LectureDashbord/LectureDashbord';
-import Classview from './components/ClassManage/Classview';
+import Classviews from './components/ClassManage/Classview';
 
 
 class App extends Component {
@@ -28,7 +28,7 @@ class App extends Component {
             <Route path="/" exact component={Home}/>
             <Route path="/register" component={Register}/>
             <Route path="/dashbord" component={LectureDashbord}/>
-            <Route path="/classpage" component={Classview} />
+            <Route path="/classpage" component={Classviews} />
   
           </Switch> 
           
