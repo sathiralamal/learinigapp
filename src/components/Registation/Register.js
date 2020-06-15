@@ -116,7 +116,7 @@ export default class Register extends Component {
                 </Col>
                 <Col>
                 <p></p>
-                     <h4>Registration</h4>
+                     <h4>Registration </h4>
                      <Form method="post" onSubmit={this.onSubmit}>
                         <Row form>
                             <Col md={6}>
@@ -154,7 +154,7 @@ export default class Register extends Component {
                                <select name="cars" id="cars" value={this.state.usertype} onChange={this.handeleusertype}>
                                     <option value="student">Studets</option>
                                     <option value="accadamic">Accadamic Starf</option>
-                                    <option value="nonaccadamic">Non Acadmic Starf</option>
+                                    <option value="nonaccadamic">Non AcadmicStarf</option>
                                 </select>
                         </FormGroup>
                     </Col>       
