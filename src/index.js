@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-global.backend="https://myfirstapp-env.eba-unha5y85.us-east-2.elasticbeanstalk.com";
+global.backend="http://myfirstapp-env.eba-unha5y85.us-east-2.elasticbeanstalk.com";
 
 
 ReactDOM.render(

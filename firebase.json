@@ -11,14 +11,7 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ],
-    "redirects":[
-      {
-        "source": "https://myfirstapp-env.eba-unha5y85.us-east-2.elasticbeanstalk.com/**",
-        "destination": "http://myfirstapp-env.eba-unha5y85.us-east-2.elasticbeanstalk.com",
-        "type": 302
-      }
-
     ]
+  
   }
 }
